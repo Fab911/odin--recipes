@@ -1,0 +1,13 @@
+body{
+    background-color: #f1e6d8;
+}
+h3{
+    color: #2c3e50;
+    font-family: "consolas", sans-serif;
+}
+.odd{
+    color: tomato;
+}
+.even{
+    color: #f39c12;
+}
