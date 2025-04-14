@@ -4,13 +4,12 @@ body {
 
 h3 {
     color: #2c3e50;
-    font-family: 'Press Start 2P', cursive;
-}
-
-.odd {
-    color: tomato;
+    font-family: "Roboto Slab", serif;   
 }
 
 .even {
     color: #f39c12;
+}
+#title {
+    font-family: "Sacramento", cursive;
 }
