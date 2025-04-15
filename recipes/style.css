@@ -1,6 +1,11 @@
 body {
-    background-color: #f1e6d8;
+    background-image: url("ssss.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
+
 
 h3 {
     color: #2c3e50;
@@ -8,39 +13,118 @@ h3 {
     
 }
 
-#pizza-title {
-    color: red;
+#box1-pizza {
+    margin-left: 120px
 }
 
-.title {
+#pizza-main-title {
     font-family: "Sacramento", cursive;
+    font-size: 45px;
+    margin-left: 170px;
 }
 
-.even {
-    color: #f39c12;
-    font-weight: 900;
-    font-style: italic;
-    text-decoration: wavy underline;
-    font-size: 20px;
+#pizza-image {
+    margin-left: 80px;
+}
+#box2-pizza {
+    margin-left: 110px;
 }
 
-.main-title{
+#box3-pizza {
+    margin-left: 111px;
+}
+#box4-pizza {
+    margin-left: 110px;
+}
+
+#pizza-more-recipes {
+    color: orange;
+    text-decoration: underline;
+}
+#box4-pizza a{
+    color: black;
+}
+#box4-pizza a:hover{
+    color: gold;
+}
+
+#box1-lasagna {
+    margin-left: 150px;
+}
+#lasagna-main-title {
+    margin-left: 70px;
     font-family: "Sacramento", cursive;
-    border-color: black;
+    font-size: 40px;
+}
+#box2-lasagna {
+    margin-left: 45px;
+}
+#box3-lasagna {
+    margin-left: 40px;
+}
+
+#box4-lasagna {
+    margin-left: 40px;
+}
+
+#box5-lasagna {
+    margin-left: 40px;
+}
+#box5-lasagna a{
+    color: black;
+}
+#box5-lasagna a:hover{
+    color: gold;
+}
+#lasagna-more-recipes {
+color: orange;
+text-decoration: underline;
+font-size: 20px;
+}
+
+
+#box1-index {
+    background-color: #a98467;
+    border-color: #a98467;
+    border-width: 5px;
     border-top-style: outset;
     border-bottom-style: outset;
     border-right-style: outset ;
     border-left-style: outset;
-    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: "Sacramento", cursive;
+    border-radius:20px;
     width: 550px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-.zz {
+#box2-index  {
+    background-color: #a98467;
     border-style: outset;
-    border-width: 5px;
     border-color: #a98467;
+    margin-top: 100px;
+    margin-left: 270px;
+    border-width: 5px;
     border-radius: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 95px;
+    padding-right:70px;
+    padding-left: 10px;
+    font-size: 40px;
+    width: 125px;
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
 }
+
+#box2-index a{
+    color: black;
+}
+
+#box2-index a:hover{
+    color: wheat
+}
+
+
+
+
+
