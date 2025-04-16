@@ -13,6 +13,8 @@ h3 {
     
 }
 
+
+/* --------------------------------------------------------------------------------------CSS for the pizza page -------------------------------------------------------------------------*/
 #box1-pizza {
     margin-left: 120px
 }
@@ -48,28 +50,43 @@ h3 {
     color: gold;
 }
 
+
+/* ------------------------------------------------------------------------------------------CSS for the lasagna page------------------------------------------------------------------ */
+
 #box1-lasagna {
-    margin-left: 150px;
+    text-align: center;
 }
 #lasagna-main-title {
-    margin-left: 70px;
+    margin-left: 1px;
     font-family: "Sacramento", cursive;
-    font-size: 40px;
+    font-size: 60px;
 }
 #box2-lasagna {
-    margin-left: 45px;
+    line-height: 10px;
+    font-size: large;
+    text-align: center;
+    font-family: "Lato", sans-serif;
 }
 #box3-lasagna {
-    margin-left: 40px;
+    margin: 0 auto; /* Centers the list horizontally */
+    text-align: center; /* Aligns the text inside the list */
+    width: fit-content; /* Shrinks the list width to fit its content */
+    margin-bottom: 20px; /* Adds some space below the list */
+    font-size: large;
+    font-family: "Lato", sans-serif;
 }
 
 #box4-lasagna {
-    margin-left: 40px;
+    margin: 0 auto; /* Centers the list horizontally */
+    text-align: center; /* Aligns the text inside the list */
+    width: fit-content; /* Shrinks the list width to fit its content */
+    margin-bottom: 20px; /* Adds some space below the list */
+    font-size: large;
+    font-family: "Lato", sans-serif;
 }
 
-#box5-lasagna {
-    margin-left: 40px;
-}
+
+
 #box5-lasagna a{
     color: black;
 }
@@ -77,12 +94,26 @@ h3 {
     color: gold;
 }
 #lasagna-more-recipes {
-color: orange;
-text-decoration: underline;
-font-size: 20px;
+    margin-left: 800px;
+    margin-bottom: 1px;
+    color: orange;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+.more-recipes-list {
+    font-size: xx-large;
+    margin-left: 810px;
+}
+
+.lasagna-titles {
+    margin-bottom: 1px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: xx-large;
 }
 
 
+/* -------------------------------------------------------------------------------------------CSS for the index page----------------------------------------------------------------------- */
 #box1-index {
     background-color: #a98467;
     border-color: #a98467;
@@ -92,13 +123,14 @@ font-size: 20px;
     border-right-style: outset ;
     border-left-style: outset;
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 200px;
     font-family: "Sacramento", cursive;
     border-radius:20px;
     width: 550px;
     padding-right: 5px;
     padding-left: 5px;
 }
+
 
 #box2-index  {
     background-color: #a98467;
@@ -123,8 +155,4 @@ font-size: 20px;
 #box2-index a:hover{
     color: wheat
 }
-
-
-
-
 
