@@ -16,12 +16,9 @@ h3 {
 
 /* --------------------------------------------------------------------------------------CSS for the pizza page -------------------------------------------------------------------------*/
 #box1-pizza {
-    margin: 0 auto; /* Centers the list horizontally */
     text-align: center; /* Aligns the text inside the list */
-    width: fit-content; /* Shrinks the list width to fit its content */
-    margin-bottom: 20px; /* Adds some space below the list */
     font-size: large;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif; 
 }
 
 #pizza-main-title {
@@ -34,21 +31,15 @@ h3 {
     margin-left: 20px;
 }
 #box2-pizza {
-    margin: 0 auto; /* Centers the list horizontally */
     text-align: center; /* Aligns the text inside the list */
-    width: fit-content; /* Shrinks the list width to fit its content */
-    margin-bottom: 20px; /* Adds some space below the list */
     font-size: large;
     font-family: "Lato", sans-serif; 
 }
 
 #box3-pizza {
-    margin: 0 auto; /* Centers the list horizontally */
     text-align: center; /* Aligns the text inside the list */
-    width: fit-content; /* Shrinks the list width to fit its content */
-    margin-bottom: 20px; /* Adds some space below the list */
     font-size: large;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif; 
 }
 
 #box4-pizza a{
@@ -69,29 +60,21 @@ h3 {
 }
 #box2-lasagna {
     line-height: 10px;
+    text-align: center; /* Aligns the text inside the list */
     font-size: large;
-    text-align: center;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif; 
 }
 #box3-lasagna {
-    margin: 0 auto; /* Centers the list horizontally */
     text-align: center; /* Aligns the text inside the list */
-    width: fit-content; /* Shrinks the list width to fit its content */
-    margin-bottom: 20px; /* Adds some space below the list */
     font-size: large;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif; 
 }
 
 #box4-lasagna {
-    margin: 0 auto; /* Centers the list horizontally */
     text-align: center; /* Aligns the text inside the list */
-    width: fit-content; /* Shrinks the list width to fit its content */
-    margin-bottom: 20px; /* Adds some space below the list */
     font-size: large;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif; 
 }
-
-
 
 #box5-lasagna a{
     color: black;
@@ -129,7 +112,7 @@ h3 {
     border-right-style: outset ;
     border-left-style: outset;
     margin-top: 15px;
-    margin-left: 200px;
+    margin-left: 660px;
     font-family: "Sacramento", cursive;
     border-radius:20px;
     width: 550px;
@@ -143,7 +126,7 @@ h3 {
     border-style: outset;
     border-color: #a98467;
     margin-top: 100px;
-    margin-left: 270px;
+    margin-left: 840px;
     border-width: 5px;
     border-radius: 20px;
     padding-right:70px;
@@ -152,6 +135,7 @@ h3 {
     width: 125px;
     font-family: "Sacramento", cursive;
     font-weight: bold;
+
 }
 
 #box2-index a{
@@ -162,3 +146,31 @@ h3 {
     color: wheat
 }
 
+/*-------------------------------------------------------------------------------------------CSS for the CousCous page----------------------------------------------------------------------- */
+#couscous-main-title {
+    font-family: "Sacramento", cursive;
+    font-size: 60px;
+    margin-left: 1px;
+}
+#box1-couscous {
+    text-align: center; /* Aligns the text inside the list */
+    font-size: large;
+    font-family: "Lato", sans-serif;  
+
+}
+
+#box2-couscous {
+    text-align: center; /* Aligns the text inside the list */
+    font-size: large;
+    font-family: "Lato", sans-serif;  
+}
+#box3-couscous a{
+    color: black;
+}
+#box3-couscous a:hover{
+    color: gold;
+}
+.ul {
+    list-style-position: inside;
+    margin-left: 11px;
+}
