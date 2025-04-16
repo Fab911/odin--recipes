@@ -16,41 +16,47 @@ h3 {
 
 /* --------------------------------------------------------------------------------------CSS for the pizza page -------------------------------------------------------------------------*/
 #box1-pizza {
-    margin-left: 120px
+    margin: 0 auto; /* Centers the list horizontally */
+    text-align: center; /* Aligns the text inside the list */
+    width: fit-content; /* Shrinks the list width to fit its content */
+    margin-bottom: 20px; /* Adds some space below the list */
+    font-size: large;
+    font-family: "Lato", sans-serif;
 }
 
 #pizza-main-title {
     font-family: "Sacramento", cursive;
-    font-size: 45px;
-    margin-left: 170px;
+    font-size: 60px;
+    margin-left: 1px;
 }
 
 #pizza-image {
-    margin-left: 80px;
+    margin-left: 20px;
 }
 #box2-pizza {
-    margin-left: 110px;
+    margin: 0 auto; /* Centers the list horizontally */
+    text-align: center; /* Aligns the text inside the list */
+    width: fit-content; /* Shrinks the list width to fit its content */
+    margin-bottom: 20px; /* Adds some space below the list */
+    font-size: large;
+    font-family: "Lato", sans-serif; 
 }
 
 #box3-pizza {
-    margin-left: 111px;
-}
-#box4-pizza {
-    margin-left: 110px;
+    margin: 0 auto; /* Centers the list horizontally */
+    text-align: center; /* Aligns the text inside the list */
+    width: fit-content; /* Shrinks the list width to fit its content */
+    margin-bottom: 20px; /* Adds some space below the list */
+    font-size: large;
+    font-family: "Lato", sans-serif;
 }
 
-#pizza-more-recipes {
-    color: orange;
-    text-decoration: underline;
-}
 #box4-pizza a{
     color: black;
 }
 #box4-pizza a:hover{
     color: gold;
 }
-
-
 /* ------------------------------------------------------------------------------------------CSS for the lasagna page------------------------------------------------------------------ */
 
 #box1-lasagna {
@@ -93,7 +99,7 @@ h3 {
 #box5-lasagna a:hover{
     color: gold;
 }
-#lasagna-more-recipes {
+.more-recipes {
     margin-left: 800px;
     margin-bottom: 1px;
     color: orange;
@@ -106,7 +112,7 @@ h3 {
     margin-left: 810px;
 }
 
-.lasagna-titles {
+.titles {
     margin-bottom: 1px;
     font-family: "Bebas Neue", sans-serif;
     font-size: xx-large;
