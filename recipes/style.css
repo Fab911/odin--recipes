@@ -52,6 +52,7 @@
     text-align: center; /* Aligns the text inside the list */
     font-size: large;
     font-family: "Lato", sans-serif; 
+    line-height: 25px;
 }
 
 #box4-lasagna {
@@ -83,32 +84,37 @@
 
 /* -------------------------------------------------------------------------------------------CSS for the index page----------------------------------------------------------------------- */
 #box1-index {
+    border-style: outset;
     background-color: #a98467;
     border-color: #a98467;
-    border-style: outset;
+    text-align: center;
+    line-height: center;
+    width: 650px;
     border-width: 5px;
-    margin-top: 15px;
-    margin-left: 660px;
+    border-radius:20px;    
     font-family: "Sacramento", cursive;
-    border-radius:20px;
-    width: 550px;
+    position: relative;
+    left: 600px;
+    top: 25px;
 }
 
 
 #box2-index  {
-    background-color: #a98467;
     border-style: outset;
+    width: 200px;
+    text-align: center;
+    background-color: #a98467;
     border-color: #a98467;
     border-width: 5px;
-    margin-top: 100px;
-    margin-left: 840px;
     border-radius: 20px;
-    font-size: 40px;
-    width: 200px;
+    font-size: 40px;    
     font-family: "Sacramento", cursive;
     font-weight: bold;
-
+    position: relative;
+    left: 850px;
+    top: 50px;
 }
+
 
 #box2-index a{
     color: black;
@@ -117,6 +123,29 @@
 #box2-index a:hover{
     color: wheat
 }
+
+.boxes-index {
+    float: left;
+}
+#couscous-picture {
+    border: 5px solid wheat;
+    position: relative;
+    top: 90px;
+    left: 680px;
+}
+#pizza-picture {
+    border: 5px solid wheat;
+    position: relative;
+    top: 90px;
+    left: 800px;
+}
+#lasagna-picture {
+    border: 5px solid wheat;
+    position: relative;
+    top: 90px;
+    left:20px;
+}
+
 
 /*-------------------------------------------------------------------------------------------CSS for the CousCous page----------------------------------------------------------------------- */
 #couscous-main-title {
@@ -142,6 +171,7 @@
 #box3-couscous a:hover{
     color: gold;
 }
+
 .ul {
     list-style-position: inside;
     margin-left: 11px;
@@ -149,10 +179,11 @@
 
 /*-------------------------------------------------------------------------------------------common things----------------------------------------------------------------------- */
 .titles {
-    margin-bottom: 1px;
+    line-height: 1px;
     font-family: "Bebas Neue", sans-serif;
     font-size: xx-large;
 }
+
 body {
     background-image: url("ssss.jpeg");
     background-repeat: no-repeat;
