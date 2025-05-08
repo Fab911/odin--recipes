@@ -9,7 +9,7 @@
     font-family: "Sacramento", cursive;
     font-size: 60px;
     margin-left: 1px;
-}
+    text-shadow: 0px 5px 5px orange, 0px -5px 5px crimson;}
 
 #pizza-image {
     margin-left: 20px;
@@ -26,12 +26,6 @@
     font-family: "Lato", sans-serif; 
 }
 
-#box4-pizza a{
-    color: black;
-}
-#box4-pizza a:hover{
-    color: gold;
-}
 
 #ul-1-pizza {
     list-style-position: inside;
@@ -73,6 +67,7 @@
     margin-left: 1px;
     font-family: "Sacramento", cursive;
     font-size: 60px;
+    text-shadow: 0px 5px 5px orange, 0px -5px 5px crimson;
 }
 #box2-lasagna {
     line-height: 10px;
@@ -91,13 +86,6 @@
     text-align: center; /* Aligns the text inside the list */
     font-size: large;
     font-family: "Lato", sans-serif; 
-}
-
-#box5-lasagna a{
-    color: black;
-}
-#box5-lasagna a:hover{
-    color: gold;
 }
 
 
@@ -144,6 +132,8 @@
     position: relative;
     left: 625px;
     top: 25px;
+    text-shadow: 0px 5px 5px orange, 0px -5px 5px wheat;
+    box-shadow: 0px 5px 5px orange, 0px -5px 5px wheat;
 }
 
 
@@ -162,34 +152,27 @@
     position: relative;
     left: 840px;
     top: 50px;
+    box-shadow: 0px 5px 5px burlywood, 0px -5px 5px saddlebrown;
 }
 
-
-#box2-index a{
-    color: black;
-}
-
-#box2-index a:hover{
-    color: wheat
-}
 
 .boxes-index {
     float: left;
 }
 #couscous-picture {
-    border: 5px solid wheat;
     position: relative;
     top: 90px;
     left: 680px;
+    box-shadow: 0px 5px 5px orange, 0px -5px 5px crimson;
 }
 #pizza-picture {
-    border: 5px solid wheat;
+    box-shadow: 0px 5px 5px darkgrey, 0px -5px 5px crimson;
     position: relative;
     top: 90px;
     left: 800px;
 }
 #lasagna-picture {
-    border: 5px solid wheat;
+    box-shadow: 0px 5px 5px darkgrey, 0px -5px 5px crimson;
     position: relative;
     top: 90px;
     left:20px;
@@ -201,6 +184,7 @@
     font-family: "Sacramento", cursive;
     font-size: 60px;
     margin-left: 1px;
+    text-shadow: 0px 5px 5px orange, 0px -5px 5px crimson;
 }
 #box1-couscous {
     text-align: center; 
@@ -247,12 +231,7 @@ margin-top:-30px ;
     margin-left: 820px;
     margin-top: -65px;
 }
-#couscous-more-recipes-list a{
-    color: black;
-}
-#couscous-more-recipes-list a:hover{
-    color: gold;
-}
+
 /*-------------------------------------------------------------------------------------------common things----------------------------------------------------------------------- */
 
 
@@ -271,4 +250,16 @@ h3 {
     font-size: xx-large;
     position: relative;
     top: -10px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #e67e22;  
+}
+a:active {
+    color:#d35400
 }
