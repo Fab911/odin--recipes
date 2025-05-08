@@ -32,6 +32,38 @@
 #box4-pizza a:hover{
     color: gold;
 }
+
+#ul-1-pizza {
+    list-style-position: inside;
+    position: relative;
+    top: -40px;
+}
+
+#pizza-title-4 {
+    position: relative;
+    top: -56px;
+}
+#ul-2-pizza {
+    list-style-position: inside;
+    position: relative;
+    top: -80px;
+}
+
+#pizza-more-recipes {
+    position: relative;
+    margin-left: 790px;
+    margin-top: -80px;    
+    color: orange;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+#pizza-more-recipes-list {
+    font-size: 40px;
+    margin-left: 790px;
+    margin-top: -65px;
+}
+
 /* ------------------------------------------------------------------------------------------CSS for the lasagna page------------------------------------------------------------------ */
 
 #box1-lasagna {
@@ -67,21 +99,37 @@
 #box5-lasagna a:hover{
     color: gold;
 }
-.more-recipes {
-    margin-left: 800px;
-    margin-bottom: 1px;
+
+
+#third-lasagna-title {
+    position: relative;
+    top: -50px;
+}
+.ul-lasagna {
+    list-style-position: inside;
+    position: relative;
+    top: -35px;
+}
+.ul-2-lasagna {
+    list-style-position: inside;
+    position: relative;
+    top: -75px;
+}
+
+#lasagna-more-recipes{
+    position: relative;
+    margin-left: 790px;
+    margin-top: -70px;    
     color: orange;
     text-decoration: underline;
-    font-size: xx-large;
+    font-size: 60px;
 }
 
-.more-recipes-list {
-    font-size: xx-large;
-    margin-left: 810px;
+#lasagna-more-recipes-list {
+    font-size: 40px;
+    margin-left: 800px;
+    margin-top: -65px;
 }
-
-
-
 /* -------------------------------------------------------------------------------------------CSS for the index page----------------------------------------------------------------------- */
 #box1-index {
     border-style: outset;
@@ -94,7 +142,7 @@
     border-radius:20px;    
     font-family: "Sacramento", cursive;
     position: relative;
-    left: 600px;
+    left: 625px;
     top: 25px;
 }
 
@@ -103,6 +151,7 @@
     border-style: outset;
     width: 200px;
     text-align: center;
+    line-height: center;
     background-color: #a98467;
     border-color: #a98467;
     border-width: 5px;
@@ -111,7 +160,7 @@
     font-family: "Sacramento", cursive;
     font-weight: bold;
     position: relative;
-    left: 850px;
+    left: 840px;
     top: 50px;
 }
 
@@ -154,35 +203,58 @@
     margin-left: 1px;
 }
 #box1-couscous {
-    text-align: center; /* Aligns the text inside the list */
+    text-align: center; 
     font-size: large;
     font-family: "Lato", sans-serif;  
-
 }
 
 #box2-couscous {
-    text-align: center; /* Aligns the text inside the list */
+    text-align: center; 
     font-size: large;
     font-family: "Lato", sans-serif;  
 }
-#box3-couscous a{
+
+#couscous-explanation {
+margin-top:-30px ;
+}
+#box3-couscous {
+    text-align: center; 
+    font-size: large;
+    font-family: "Lato", sans-serif;  
+}
+#couscous-ul-1-list {
+    list-style-position: inside;
+    margin-top:-40px ;
+}
+
+#couscous-ul-2-list {
+    list-style-position: inside;
+    margin-top: -40px;
+
+}
+
+#couscous-more-recipes {
+    position: relative;
+    margin-left: 760px;
+    margin-top: -1px;    
+    color: orange;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+#couscous-more-recipes-list {
+    font-size: 40px;
+    margin-left: 820px;
+    margin-top: -65px;
+}
+#couscous-more-recipes-list a{
     color: black;
 }
-#box3-couscous a:hover{
+#couscous-more-recipes-list a:hover{
     color: gold;
 }
-
-.ul {
-    list-style-position: inside;
-    margin-left: 11px;
-}
-
 /*-------------------------------------------------------------------------------------------common things----------------------------------------------------------------------- */
-.titles {
-    line-height: 1px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: xx-large;
-}
+
 
 body {
     background-image: url("ssss.jpeg");
@@ -195,6 +267,8 @@ body {
 
 h3 {
     color: #2c3e50;
-    font-family: "Roboto Slab", serif;   
-    
+    font-family: "Bebas Neue", sans-serif;
+    font-size: xx-large;
+    position: relative;
+    top: -10px;
 }
