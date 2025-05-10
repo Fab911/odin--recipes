@@ -181,7 +181,7 @@
 }
 
 .fa-brands.fa-square-x-twitter {
-    color: #FFFFFF;
+    color: black;
     font-size: 40px;
     position: relative;
     top: -370px;
@@ -193,7 +193,7 @@
 }
 
 .fa-brands.fa-square-facebook {
-    color: #FFFFFF;
+    color: #1877F2;
     font-size: 40px;
     position: relative;
     top: -370px;
@@ -205,7 +205,7 @@
 
 
 .fa-brands.fa-square-youtube {
-    color: #FFFFFF;
+    color: red;
     font-size: 40px;
     position: relative;
     top: -370px;
@@ -300,14 +300,10 @@ a:active {
     color:#d35400
 }
 
-.button-link {
-    display: inline-block;
-    border: 5px solid skyblue;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    background-color: skyblue;
-    border-radius: 5px;
+.fa-solid.fa-house {
+    color: black;
+    font-size: 30px;
 }
-
+.fa-solid.fa-house:hover {
+    text-shadow: 0px 0px 5px orange, 0px 0px 5px wheat;
+}
